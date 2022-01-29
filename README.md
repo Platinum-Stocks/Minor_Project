@@ -1,6 +1,6 @@
 # Minor_Project
 
-##Scrapper 
+## Scrapper 
 How to Run?
 pip install tweepy
 Create a twitter developer account and create an application to get access to API and their secret keys.
