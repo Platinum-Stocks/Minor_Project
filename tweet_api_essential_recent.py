@@ -11,7 +11,7 @@ import os
 
 
 
-df = pd.read_excel('list.xlsm', sheetname=0) # can also index sheet by name or fetch all sheets
+df = pd.read_excel('list.xlsx', sheetname=0) # can also index sheet by name or fetch all sheets
 words = df['Companies'].tolist()
 #words= ["Nifty", "NSE", "BSE", "SENSEX", "HDFC", "reliance"]
 all_tweet={}
