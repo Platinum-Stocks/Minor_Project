@@ -1,0 +1,27 @@
+<ipython-input-45-b5c0353bbe51>:1: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  apple_train['Open']= pd.Series(scaler.fit_transform(apple_train['Open'].values.reshape(-1,1))[:,0])
+C:\Users\saswa\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\preprocessing\_data.py:400: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(X, axis=0)
+C:\Users\saswa\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\preprocessing\_data.py:401: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(X, axis=0)
+<ipython-input-48-e6a4d14fc4ab>:1: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  apple_train['Open']= pd.DataFrame(scaler.fit_transform(apple_train['Open'].values.reshape(-1,1)))
+C:\Users\saswa\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\preprocessing\_data.py:400: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(X, axis=0)
+C:\Users\saswa\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\preprocessing\_data.py:401: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(X, axis=0)
+<ipython-input-56-f01db968bc66>:1: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  apple_train['Scaled_open']= scaler.fit_transform(apple_train['Open'].values.reshape(-1,1))
+AAPL
+(1919, 7)
+MSFT
+(7099, 7)

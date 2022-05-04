@@ -1,0 +1,4 @@
+2022-05-03 21:54:55,426 INFO    MainThread:4564 [internal.py:wandb_internal():92] W&B internal server running at pid: 4564, started at: 2022-05-03 21:54:55.425829
+2022-05-03 21:54:55,428 INFO    WriterThread:4564 [datastore.py:open_for_write():77] open: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\run-2w2ot02g.wandb
+2022-05-03 21:54:55,431 DEBUG   SenderThread:4564 [sender.py:send():235] send: header
+2022-05-03 21:54:55,431 DEBUG   SenderThread:4564 [sender.py:send():235] send: run

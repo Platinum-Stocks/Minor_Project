@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.5",
+    "heartbeatAt": "2022-05-03T16:34:41.616510",
+    "startedAt": "2022-05-03T16:34:35.084924",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"dd5e3011-a7b3-49cf-87f6-38cbcdddde11\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\saswa\\AppData\\Local\\Temp\\tmp-64054wFiFDfJmZZ.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Platinum-Stocks/Minor_Project.git",
+        "commit": "77fba729c10fd63ae167842624dd195064047806"
+    },
+    "email": "saswata.paladhi@gmail.com",
+    "root": "C:/Users/saswa/saswata/Minor_Project",
+    "host": "LAPTOP-3M9KHKJM",
+    "username": "saswata paladhi",
+    "executable": "C:\\Users\\saswa\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}
