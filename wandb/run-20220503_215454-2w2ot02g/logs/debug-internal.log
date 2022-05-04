@@ -2,3 +2,93 @@
 2022-05-03 21:54:55,428 INFO    WriterThread:4564 [datastore.py:open_for_write():77] open: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\run-2w2ot02g.wandb
 2022-05-03 21:54:55,431 DEBUG   SenderThread:4564 [sender.py:send():235] send: header
 2022-05-03 21:54:55,431 DEBUG   SenderThread:4564 [sender.py:send():235] send: run
+2022-05-03 21:54:56,674 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: check_version
+2022-05-03 21:54:56,676 INFO    SenderThread:4564 [dir_watcher.py:__init__():169] watching files in: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files
+2022-05-03 21:54:56,677 INFO    SenderThread:4564 [sender.py:_start_run_threads():812] run started: 2w2ot02g with start time 1651595094
+2022-05-03 21:54:56,677 DEBUG   SenderThread:4564 [sender.py:send():235] send: summary
+2022-05-03 21:54:56,678 INFO    SenderThread:4564 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-05-03 21:54:56,678 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: check_version
+2022-05-03 21:54:57,345 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: run_start
+2022-05-03 21:54:57,688 INFO    Thread-11 :4564 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files\wandb-summary.json
+2022-05-03 21:55:00,885 DEBUG   HandlerThread:4564 [meta.py:__init__():37] meta init
+2022-05-03 21:55:00,885 DEBUG   HandlerThread:4564 [meta.py:__init__():51] meta init done
+2022-05-03 21:55:00,885 DEBUG   HandlerThread:4564 [meta.py:probe():211] probe
+2022-05-03 21:55:01,447 DEBUG   HandlerThread:4564 [meta.py:_setup_git():201] setup git
+2022-05-03 21:55:01,508 DEBUG   HandlerThread:4564 [meta.py:_setup_git():208] setup git done
+2022-05-03 21:55:01,508 DEBUG   HandlerThread:4564 [meta.py:_save_pip():55] save pip
+2022-05-03 21:55:01,508 DEBUG   HandlerThread:4564 [meta.py:_save_pip():69] save pip done
+2022-05-03 21:55:01,509 DEBUG   HandlerThread:4564 [meta.py:probe():249] probe done
+2022-05-03 21:55:01,512 DEBUG   SenderThread:4564 [sender.py:send():235] send: files
+2022-05-03 21:55:01,512 INFO    SenderThread:4564 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-05-03 21:55:01,518 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:55:01,519 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:55:01,521 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: pause
+2022-05-03 21:55:01,521 INFO    HandlerThread:4564 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-05-03 21:55:01,618 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: resume
+2022-05-03 21:55:01,618 INFO    HandlerThread:4564 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-05-03 21:55:01,735 INFO    Thread-11 :4564 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files\wandb-metadata.json
+2022-05-03 21:55:01,735 INFO    Thread-11 :4564 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files\output.log
+2022-05-03 21:55:01,736 INFO    Thread-11 :4564 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files\requirements.txt
+2022-05-03 21:55:02,108 DEBUG   SenderThread:4564 [sender.py:send():235] send: telemetry
+2022-05-03 21:55:02,108 DEBUG   SenderThread:4564 [sender.py:send():235] send: stats
+2022-05-03 21:55:03,275 INFO    Thread-17 :4564 [upload_job.py:push():137] Uploaded file C:\Users\saswa\AppData\Local\Temp\tmpkpxfr4v2wandb\2agv4to3-wandb-metadata.json
+2022-05-03 21:55:17,121 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:55:17,121 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:55:25,905 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: pause
+2022-05-03 21:55:25,906 INFO    HandlerThread:4564 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-05-03 21:55:26,576 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: resume
+2022-05-03 21:55:26,576 INFO    HandlerThread:4564 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-05-03 21:55:26,577 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: pause
+2022-05-03 21:55:26,577 INFO    HandlerThread:4564 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-05-03 21:55:26,620 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: resume
+2022-05-03 21:55:26,620 INFO    HandlerThread:4564 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-05-03 21:55:26,620 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: pause
+2022-05-03 21:55:26,620 INFO    HandlerThread:4564 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-05-03 21:55:26,662 DEBUG   SenderThread:4564 [sender.py:send():235] send: stats
+2022-05-03 21:55:26,662 DEBUG   SenderThread:4564 [sender.py:send():235] send: stats
+2022-05-03 21:55:26,664 DEBUG   SenderThread:4564 [sender.py:send():235] send: stats
+2022-05-03 21:55:27,021 INFO    Thread-11 :4564 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\saswa\saswata\Minor_Project\wandb\run-20220503_215454-2w2ot02g\files\config.yaml
+2022-05-03 21:55:32,787 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:55:32,787 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:55:48,375 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:55:48,375 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:56:04,020 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:56:04,020 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:56:19,690 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:56:19,690 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:56:35,525 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:56:35,525 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:56:51,515 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:56:51,515 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:57:07,155 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:57:07,155 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:57:22,800 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:57:22,800 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:57:38,553 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:57:38,553 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:57:54,245 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:57:54,245 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:58:10,227 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:58:10,227 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:58:25,833 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:58:25,833 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:58:41,504 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:58:41,504 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:58:57,088 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:58:57,088 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:59:12,684 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:59:12,684 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:59:28,307 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:59:28,307 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:59:44,040 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:59:44,041 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 21:59:59,385 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: resume
+2022-05-03 21:59:59,385 INFO    HandlerThread:4564 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-05-03 21:59:59,691 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 21:59:59,692 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 22:00:15,848 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 22:00:15,882 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 22:00:32,528 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-03 22:00:32,532 DEBUG   SenderThread:4564 [sender.py:send_request():249] send_request: stop_status
+2022-05-03 22:00:35,196 DEBUG   HandlerThread:4564 [handler.py:handle_request():141] handle_request: pause
+2022-05-03 22:00:35,197 INFO    HandlerThread:4564 [handler.py:handle_request_pause():659] stopping system metrics thread
